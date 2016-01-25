@@ -13,4 +13,4 @@ class StockList(models.Model):
     summary_quote = models.URLField()
 
     def __str__(self):
-        return self.symbolS
+        return self.symbol
